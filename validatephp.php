@@ -20,7 +20,7 @@ if (isset($_POST['upload']))
       $_SESSION['check']=TRUE;
       $_SESSION['fname']=$_POST['fname'];
       $_SESSION['lname']=$_POST['lname'];
-      $_SESSION['percentile']=$_POSt['percentile'];
+      $_SESSION['percentile']=$_POST['percentile'];
       $_SESSION['salary']=$_POST['salary'];
       $_SESSION['domain']=$_POST['domain'];
       $_SESSION['codename']=$_POST['codename'];

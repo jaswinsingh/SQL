@@ -2,13 +2,6 @@
 session_start();
 if ($_SESSION['check'])
 {
-/*  $fname=$_POST['fname'];
-  $lname=$_POST['lname'];
-  $percentile=$_POST['percentile'];
-  $salary=$_POST['salary'];
-  $domain=$_POST['domain'];
-  $codeName=$_POST['codename'];*/
-
   $fname=$_SESSION['fname'];
   $lname=$_SESSION['lname'];
   $percentile=$_SESSION['percentile'];
@@ -47,7 +40,7 @@ if ($_SESSION['check'])
   }
   if ($conn->query($sql3) === TRUE) {
       echo "New record created successfully in table 3 \n";
-  }
-}
+    }
 
+}
 ?>
